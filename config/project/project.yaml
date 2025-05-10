@@ -1,0 +1,32 @@
+dateModified: 1746882782
+email:
+  fromEmail: cthijsdewaegeneer@hotmail.com
+  fromName: Mariahuis
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    523bf516-1839-425e-a871-eb6c19b37109: 'Cultuur Colette' # Cultuur Colette
+    949a148f-d172-45ff-bcfc-160d3292a8db: Mariahuis # Mariahuis
+    28873fc0-5092-43dc-94ff-c29ce0463c2c: 'Sint Coleta' # Sint Coleta
+    cbe9e6f0-0c8d-485f-b0d9-499af8215148: Mariahuis # Mariahuis
+    d95cb219-295a-4149-bc48-ab2daa958bed: Simple # Simple
+    ed19fb37-b34e-417d-8781-f93c9e4ea033: 'Sint Coleta' # Sint Coleta
+    f2fcfcef-2e85-4ee2-94c7-b1ce5abab2ac: 'Cultuur Colette' # Cultuur Colette
+plugins:
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0.0
+system:
+  edition: solo
+  live: true
+  name: Mariahuis
+  schemaVersion: 5.7.0.3
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  require2fa: false
+  requireEmailVerification: true
