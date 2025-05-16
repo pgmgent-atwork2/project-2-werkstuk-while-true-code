@@ -1,0 +1,51 @@
+color: null
+fieldLayouts:
+  5122cdf0-8416-46b4-840a-84195ba0d04d:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2025-05-16T13:25:33+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            required: true
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 04aadd0c-8c03-4e74-9751-f7392cd49890
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 089d4e19-1ab6-4041-8398-0d04c3c295b2
+        userCondition: null
+handle: woonpage
+hasTitleField: true
+icon: null
+name: woonpage
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
