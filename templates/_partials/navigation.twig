@@ -1,0 +1,14 @@
+{% set navItems = craft.entries.section("navigation").all() %}
+
+<header class="navbar">
+   <nav class="navbar-container">
+      <div class="logo"></div>
+      <ul class="navbar-menu">
+         {% for item in navItems %}
+            <li class="navbar-item">
+               <a href="{{ item.href }}" class="navbar-link">{{ item.title }}</a>
+            </li>
+         {% endfor %}
+      </ul>
+   </nav>
+</header>
