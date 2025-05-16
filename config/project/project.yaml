@@ -1,4 +1,4 @@
-dateModified: 1747385303
+dateModified: 1747394431
 email:
   fromEmail: cthijsdewaegeneer@hotmail.com
   fromName: Mariahuis
@@ -7,13 +7,22 @@ meta:
   __names__:
     0db241d4-2e06-4fff-a2af-dbf0ea38ed73: 'Public Schema' # Public Schema
     1d5d1177-a90c-47eb-be17-96aa47c1a279: Navigation # Navigation
+    02d0d6a6-528f-43d9-9f98-32bc31ce7eff: 'Information Footer' # Information Footer
     4a263512-20cf-4cbe-9dda-a9705a47e161: 'Navigation Link URL' # Navigation Link URL
+    8a7b9a9a-d534-49e0-aeae-51896bc9dcfb: E-mail # E-mail
+    41f8402d-f330-488f-a911-a74233e603d2: Footer # Footer
+    50da2409-03a2-4404-923d-b6e27f251175: Team # Team
+    0236b792-3d9d-4357-bfb5-27f0563387ba: Image # Image
     523bf516-1839-425e-a871-eb6c19b37109: 'Cultuur Colette' # Cultuur Colette
     949a148f-d172-45ff-bcfc-160d3292a8db: Mariahuis # Mariahuis
     28873fc0-5092-43dc-94ff-c29ce0463c2c: 'Sint Coleta' # Sint Coleta
+    bc050c68-33ca-41b4-ba7f-cd9d257a2a8d: About # About
     cbe9e6f0-0c8d-485f-b0d9-499af8215148: Mariahuis # Mariahuis
     d95cb219-295a-4149-bc48-ab2daa958bed: Simple # Simple
+    db31f351-ad0d-4d61-8349-de63860eb42b: 'Team Card' # Team Card
     dda661cb-3856-4b1b-b3ed-ad85be204bdb: 'Navigation Link URL' # Navigation Link URL
+    e53f3f97-c9d8-4279-9c27-9acd49e07a16: Information # Information
+    e4774a18-f4d4-474d-b117-81b2c72a2f0a: 'Telephone Number' # Telephone Number
     ed19fb37-b34e-417d-8781-f93c9e4ea033: 'Sint Coleta' # Sint Coleta
     f2fcfcef-2e85-4ee2-94c7-b1ce5abab2ac: 'Cultuur Colette' # Cultuur Colette
 plugins:

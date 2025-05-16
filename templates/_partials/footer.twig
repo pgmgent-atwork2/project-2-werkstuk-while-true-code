@@ -1,7 +1,16 @@
+{% set navigation = craft.entries.section('footer').all() %}
+
 <footer class="footer">
-    <p class="footer-company">{{company.companyName}}</p>
-    <nav class="footer-menu">
-        <a href="{{socials.facebookLink}}" class="footer-link">{{socials.facebookLink.label}}</a>
-        <a href="{{socials.instagramLink}}" class="footer-link">{{socials.instagramLink.label}}</a>
-    </nav>
+    <div class="footer__credits">
+        <ul class="footer__credits-list">
+            {% set navigation = craft.entries.section('footer').all() %}
+
+            {% for item in navigation %}
+            <li class="footer__credits-list">
+            
+            </li>
+            {% endfor %}
+        
+        </ul>
+    </div>
 </footer>
