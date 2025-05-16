@@ -1,10 +1,11 @@
-dateModified: 1746882782
+dateModified: 1747378297
 email:
   fromEmail: cthijsdewaegeneer@hotmail.com
   fromName: Mariahuis
   transportType: craft\mail\transportadapters\Sendmail
 meta:
   __names__:
+    0db241d4-2e06-4fff-a2af-dbf0ea38ed73: 'Public Schema' # Public Schema
     523bf516-1839-425e-a871-eb6c19b37109: 'Cultuur Colette' # Cultuur Colette
     949a148f-d172-45ff-bcfc-160d3292a8db: Mariahuis # Mariahuis
     28873fc0-5092-43dc-94ff-c29ce0463c2c: 'Sint Coleta' # Sint Coleta
