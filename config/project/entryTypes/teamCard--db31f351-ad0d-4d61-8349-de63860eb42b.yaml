@@ -36,6 +36,23 @@ fieldLayouts:
             warning: null
             width: 100
           -
+            dateAdded: '2025-05-21T16:30:02+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: ebe4e538-9047-4604-9246-2cfde30d1da8 # Job Title
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 12f9a796-2da2-4a9d-a07e-f534b65fa8ce
+            userCondition: null
+            warning: null
+            width: 100
+          -
             dateAdded: '2025-05-16T09:52:42+00:00'
             editCondition: null
             elementCondition: null
