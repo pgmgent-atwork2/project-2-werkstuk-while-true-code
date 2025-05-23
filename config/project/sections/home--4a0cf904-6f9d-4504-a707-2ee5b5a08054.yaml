@@ -2,10 +2,10 @@ defaultPlacement: end
 enableVersioning: true
 entryTypes:
   -
-    uid: c014c31c-08dc-47f7-b5d4-3b3e539550d9 # Service Card
-handle: service
+    uid: 23d2c635-d212-4d53-8b14-8f0a46f25abb # homepage
+handle: home
 maxAuthors: 1
-name: Service
+name: home
 previewTargets:
   -
     __assoc__:
@@ -23,16 +23,16 @@ siteSettings:
   28873fc0-5092-43dc-94ff-c29ce0463c2c: # Sint Coleta
     enabledByDefault: true
     hasUrls: true
-    template: service/_entry.twig
-    uriFormat: 'service/{slug}'
+    template: home/_entry.twig
+    uriFormat: home
   cbe9e6f0-0c8d-485f-b0d9-499af8215148: # Mariahuis
     enabledByDefault: true
     hasUrls: true
-    template: service/_entry.twig
-    uriFormat: 'service/{slug}'
+    template: home/_entry.twig
+    uriFormat: home
   f2fcfcef-2e85-4ee2-94c7-b1ce5abab2ac: # Cultuur Colette
     enabledByDefault: true
     hasUrls: true
-    template: service/_entry.twig
-    uriFormat: 'service/{slug}'
-type: channel
+    template: home/_entry.twig
+    uriFormat: home
+type: single
