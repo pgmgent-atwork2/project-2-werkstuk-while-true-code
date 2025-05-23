@@ -1,0 +1,15 @@
+{% extends "_layouts/base.twig" %}
+{% set woonItems = craft.entries.section("woon").all() %}
+
+{% block content %}
+    {% for item in woonItems %}
+        <div class="woon">
+            <h1 class="woon__title">{{ item.title }}</h1>
+            <p class="woon__about">{{ item.about }}</p>
+            <p class="woon__subtitle">{{ item.subtiltel }}</p>
+            <p class="woon__about woon__about--2">{{ item.about2 }}</p>
+            <p class="woon__subtitle woon__subtitle--2">{{ item.subtiltel2 }}</p>
+            <p class="woon__about woon__about--3">{{ item.about3 }}</p>
+        </div>
+    {% endfor %}
+{% endblock %}
