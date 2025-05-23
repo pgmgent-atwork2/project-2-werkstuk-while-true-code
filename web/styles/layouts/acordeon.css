@@ -1,0 +1,61 @@
+.accordion__icon {
+  float: right;
+  transition: transform 0.3s ease;
+  display: inline-block;
+  margin-left: 1rem;
+  width: 0.6rem;
+  height: 0.6rem;
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+  transform: rotate(-135deg);
+}
+
+
+.accordion__item.active .accordion__icon {
+  transform: rotate(45deg);
+}
+
+.accordion__content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease;
+  background-color: var(--kleur-achtergrond);
+  padding: 0 1.25rem;
+  border-radius: var(--border-radius);
+  box-shadow: var(--schaduw-kaart);
+  margin-bottom: 1.5rem;
+}
+
+.accordion__item.active .accordion__content {
+  max-height: 500px;
+}
+
+.accordion__header {
+  background-color: var(--kleur-primair);
+  color: #fff;
+  cursor: pointer;
+  padding: 1rem 1.25rem;
+  width: 100%;
+  border: none;
+  text-align: left;
+  font-size: var(--font-grootte-subtitel);
+  border-radius: var(--border-radius);
+  margin-bottom: 0.75rem;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.accordion__header:hover {
+  background-color: var(--kleur-link-hover);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
