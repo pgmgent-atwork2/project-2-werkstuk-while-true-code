@@ -1,7 +1,7 @@
 columnSuffix: null
-handle: subtiltel
+handle: jobTitle
 instructions: null
-name: subtiltel
+name: 'Job Title'
 searchable: false
 settings:
   byteLimit: null

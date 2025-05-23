@@ -1,6 +1,6 @@
 color: null
 fieldLayouts:
-  5122cdf0-8416-46b4-840a-84195ba0d04d:
+  b362132d-c9b7-428f-8a3d-afcb6adb7f76:
     tabs:
       -
         elementCondition: null
@@ -10,7 +10,7 @@ fieldLayouts:
             autocomplete: false
             autocorrect: true
             class: null
-            dateAdded: '2025-05-16T13:25:33+00:00'
+            dateAdded: '2025-05-23T07:30:14+00:00'
             disabled: false
             elementCondition: null
             id: null
@@ -31,29 +31,12 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: 04aadd0c-8c03-4e74-9751-f7392cd49890
+            uid: d3d09305-e188-4499-bed2-5b7ed2dcfcb6
             userCondition: null
             warning: null
             width: 100
           -
-            dateAdded: '2025-05-16T13:37:18+00:00'
-            editCondition: null
-            elementCondition: null
-            fieldUid: bc050c68-33ca-41b4-ba7f-cd9d257a2a8d # About
-            handle: null
-            includeInCards: false
-            instructions: null
-            label: null
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: e652fc5a-1806-417b-9c63-ffe321c55fd6
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            dateAdded: '2025-05-16T13:37:18+00:00'
+            dateAdded: '2025-05-23T07:35:57+00:00'
             editCondition: null
             elementCondition: null
             fieldUid: 0236b792-3d9d-4357-bfb5-27f0563387ba # Image
@@ -65,15 +48,15 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: eaf756ea-3436-405c-9ed8-adf3cb3a696d
+            uid: 9d344b13-8eb3-41bb-953d-6a89baef1625
             userCondition: null
             warning: null
             width: 100
           -
-            dateAdded: '2025-05-16T13:43:15+00:00'
+            dateAdded: '2025-05-23T07:35:57+00:00'
             editCondition: null
             elementCondition: null
-            fieldUid: 9ed401c1-9929-4eb1-b53d-ef9ec18b7d21 # subtiltel
+            fieldUid: bc050c68-33ca-41b4-ba7f-cd9d257a2a8d # About
             handle: null
             includeInCards: false
             instructions: null
@@ -82,16 +65,16 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: de39dcb2-2e2a-4acd-8247-a8797811f253
+            uid: b70a1915-65d9-4e37-8953-b2a4e0f0c1bd
             userCondition: null
             warning: null
             width: 100
           -
-            dateAdded: '2025-05-16T13:43:15+00:00'
+            dateAdded: '2025-05-23T07:43:05+00:00'
             editCondition: null
             elementCondition: null
-            fieldUid: bc050c68-33ca-41b4-ba7f-cd9d257a2a8d # About
-            handle: about2
+            fieldUid: e4774a18-f4d4-474d-b117-81b2c72a2f0a # Telephone Number
+            handle: null
             includeInCards: false
             instructions: null
             label: null
@@ -99,16 +82,16 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 775651f7-b6a6-49ef-9ccc-a17e9637396e
+            uid: 9b7f19df-c428-4ede-b117-ee2224686bb6
             userCondition: null
             warning: null
             width: 100
           -
-            dateAdded: '2025-05-23T06:53:36+00:00'
+            dateAdded: '2025-05-23T07:43:05+00:00'
             editCondition: null
             elementCondition: null
-            fieldUid: 9ed401c1-9929-4eb1-b53d-ef9ec18b7d21 # subtiltel
-            handle: subtiltel2
+            fieldUid: 8a7b9a9a-d534-49e0-aeae-51896bc9dcfb # E-mail
+            handle: null
             includeInCards: false
             instructions: null
             label: null
@@ -116,34 +99,17 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: c25cb755-13fc-431b-a25f-7bdb98b44d4d
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            dateAdded: '2025-05-23T06:53:36+00:00'
-            editCondition: null
-            elementCondition: null
-            fieldUid: bc050c68-33ca-41b4-ba7f-cd9d257a2a8d # About
-            handle: about3
-            includeInCards: false
-            instructions: null
-            label: null
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 44c1e039-a323-4c8e-aeaa-b300fb2f73de
+            uid: 0ed07acc-7b91-464c-b3de-68911f2cbb5b
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: 089d4e19-1ab6-4041-8398-0d04c3c295b2
+        uid: 62adb2b2-edb4-4dbf-9bda-6257fa76c74a
         userCondition: null
-handle: woonpage
+handle: serviceCard
 hasTitleField: true
 icon: null
-name: woonpage
+name: 'Service Card'
 showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null

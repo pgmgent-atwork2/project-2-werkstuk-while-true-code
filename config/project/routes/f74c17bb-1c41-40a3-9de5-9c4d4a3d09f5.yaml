@@ -1,6 +1,0 @@
-siteUid: null
-sortOrder: 1
-template: _layouts/woon.twig
-uriParts:
-  - woon
-uriPattern: woon
