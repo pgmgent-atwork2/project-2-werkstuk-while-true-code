@@ -25,4 +25,7 @@ siteSettings:
     hasUrls: true
     template: _layouts/woon.twig
     uriFormat: 'woon/{slug}'
-type: channel
+structure:
+  maxLevels: null
+  uid: b6bfa039-0284-458b-a367-330b248d1038
+type: structure
