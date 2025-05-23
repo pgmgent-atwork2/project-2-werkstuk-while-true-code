@@ -1,0 +1,119 @@
+color: null
+fieldLayouts:
+  b362132d-c9b7-428f-8a3d-afcb6adb7f76:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2025-05-23T07:30:14+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            required: true
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: d3d09305-e188-4499-bed2-5b7ed2dcfcb6
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-05-23T07:35:57+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 0236b792-3d9d-4357-bfb5-27f0563387ba # Image
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9d344b13-8eb3-41bb-953d-6a89baef1625
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-05-23T07:35:57+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: bc050c68-33ca-41b4-ba7f-cd9d257a2a8d # About
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b70a1915-65d9-4e37-8953-b2a4e0f0c1bd
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-05-23T07:43:05+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: e4774a18-f4d4-474d-b117-81b2c72a2f0a # Telephone Number
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9b7f19df-c428-4ede-b117-ee2224686bb6
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-05-23T07:43:05+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 8a7b9a9a-d534-49e0-aeae-51896bc9dcfb # E-mail
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0ed07acc-7b91-464c-b3de-68911f2cbb5b
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 62adb2b2-edb4-4dbf-9bda-6257fa76c74a
+        userCondition: null
+handle: serviceCard
+hasTitleField: true
+icon: null
+name: 'Service Card'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
