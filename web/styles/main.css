@@ -1,6 +1,6 @@
  @import url("variabels/varibels.css");
 
  .navbar {
-    background-color: blue;
-
+    background-color: red;
+    width: 100vw;
  }
