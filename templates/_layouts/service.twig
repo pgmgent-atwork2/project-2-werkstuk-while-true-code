@@ -1,0 +1,25 @@
+{% extends "_layouts/base.twig" %}
+{% set services = craft.entries.section("service").all() %}
+
+{% block content %}
+
+{% for item in services %}
+    <div class= "team-cards">
+        <h2 class="team-cards__title">{{item.title}}</h2>
+        <h3 class="team-cards__job-title"></h3>
+        <img src="{{item.image}}" alt="">
+        <p class="team-cards__about">
+            {{item.about}}
+        </p>
+        <div class="team-cards__contact">
+            <p class="team-cards__contact-item">
+            Telefoon nummer: {{item.telephoneNumber}}
+            E-mail: {{item.eMail}}
+            </p>
+        </div>
+
+    </div>
+    
+{% endfor %}
+
+{% endblock %}
