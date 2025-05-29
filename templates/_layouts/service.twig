@@ -11,12 +11,21 @@
         <p class="team-cards__about">
             {{item.about}}
         </p>
-        <div class="team-cards__contact">
+{% if item.telephoneNumber or item.eMail %}
+    <div class="team-cards__contact">
+        {% if item.telephoneNumber %}
+
             <p class="team-cards__contact-item">
-            Telefoon nummer: {{item.telephoneNumber}}
-            E-mail: {{item.eMail}}
+                Telefoon nummer: {{ item.telephoneNumber }}
             </p>
-        </div>
+
+        {% endif %}
+        
+        {% if item.eMail %}
+            <p class="team-cards__contact-item">E-mail: {{ item.eMail }}</p>
+        {% endif %}
+    </div>
+{% endif %}
 
     </div>
     
