@@ -1,8 +1,16 @@
-dateModified: 1748207506
+dateModified: 1748535340
 email:
   fromEmail: cthijsdewaegeneer@hotmail.com
   fromName: Mariahuis
   transportType: craft\mail\transportadapters\Sendmail
+fs:
+  assets:
+    hasUrls: true
+    name: assets
+    settings:
+      path: assets
+    type: craft\fs\Local
+    url: /assets/
 meta:
   __names__:
     0db241d4-2e06-4fff-a2af-dbf0ea38ed73: 'Public Schema' # Public Schema
@@ -13,6 +21,7 @@ meta:
     8fbfce11-5db6-4ffb-92ca-806fed38ec04: Service # Service
     41f8402d-f330-488f-a911-a74233e603d2: Footer # Footer
     50da2409-03a2-4404-923d-b6e27f251175: Team # Team
+    52c56731-5bd7-4925-bc00-8f6bc0cbf175: Images # Images
     0236b792-3d9d-4357-bfb5-27f0563387ba: Image # Image
     523bf516-1839-425e-a871-eb6c19b37109: 'Cultuur Colette' # Cultuur Colette
     949a148f-d172-45ff-bcfc-160d3292a8db: Mariahuis # Mariahuis

@@ -10,8 +10,8 @@ settings:
   allowedKinds: null
   branchLimit: null
   defaultPlacement: end
-  defaultUploadLocationSource: null
-  defaultUploadLocationSubpath: null
+  defaultUploadLocationSource: 'volume:52c56731-5bd7-4925-bc00-8f6bc0cbf175' # Images
+  defaultUploadLocationSubpath: web/assets
   maintainHierarchy: false
   maxRelations: null
   minRelations: null
@@ -19,7 +19,7 @@ settings:
   restrictFiles: false
   restrictLocation: false
   restrictedDefaultUploadSubpath: null
-  restrictedLocationSource: null
+  restrictedLocationSource: 'volume:52c56731-5bd7-4925-bc00-8f6bc0cbf175' # Images
   restrictedLocationSubpath: null
   selectionLabel: null
   showCardsInGrid: false
