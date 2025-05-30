@@ -41,14 +41,14 @@
   left: 0;
   height: 2px;
   width: 100%;
-  background: #00bcd4;
+  background: var(--kleur-link-hover);
   transform: scaleX(0);
   transition: transform 0.3s ease;
   transform-origin: right;
 }
 
 .navbar-link:hover {
-  color: #00bcd4;
+  color: var(--kleur-link-hover);
 }
 
 .navbar-link:hover::after {
