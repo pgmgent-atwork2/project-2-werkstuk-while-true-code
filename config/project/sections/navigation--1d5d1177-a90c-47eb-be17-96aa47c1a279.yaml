@@ -3,6 +3,8 @@ enableVersioning: true
 entryTypes:
   -
     uid: 4a263512-20cf-4cbe-9dda-a9705a47e161 # Navigation Link URL
+  -
+    uid: 370c7e06-ba86-44f6-9ebf-818f3cb54765 # Navigation Logo
 handle: navigation
 maxAuthors: 1
 name: Navigation

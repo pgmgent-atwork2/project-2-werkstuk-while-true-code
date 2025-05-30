@@ -1,5 +1,4 @@
 .accordion__icon {
-  float: right;
   transition: transform 0.3s ease;
   display: inline-block;
   margin-left: 1rem;
@@ -42,6 +41,9 @@
   border-radius: var(--border-radius);
   margin-bottom: 0.75rem;
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .accordion__header:hover {

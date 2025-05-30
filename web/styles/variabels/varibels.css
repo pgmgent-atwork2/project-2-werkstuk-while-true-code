@@ -1,19 +1,15 @@
 :root {
-  /* Kleuren */
   --kleur-primair: #005a9c;
   --kleur-secundair: #f4f4f4;
   --kleur-achtergrond: #ffffff;
   --kleur-tekst: #333333;
-  --kleur-link: #005a9c;
   --kleur-link-hover: #003f6b;
 
-  /* Tekst */
   --font-body: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   --font-grootte-basis: 1rem;
   --font-grootte-titel: 1.8rem;
   --font-grootte-subtitel: 1.2rem;
 
-  /* Layout */
   --padding-sectie: 2rem;
   --border-radius: 12px;
   --schaduw-kaart: 0 4px 12px rgba(0, 0, 0, 0.06);
