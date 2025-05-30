@@ -7,7 +7,7 @@
     <div class= "team-cards">
         <h2 class="team-cards__title">{{item.title}}</h2>
         <h3 class="team-cards__job-title"> {{item.jobTitle}}</h3>
-        {% set image = item.image.one() %}
+        {% set image = item.image.one() %}t
         {% if image %}
             <img src="{{ image.url }}" alt="{{ item.title }}">
         {% endif %}
