@@ -1,0 +1,40 @@
+.woon {
+  background-color: var(--kleur-achtergrond);
+  border-radius: var(--border-radius);
+  box-shadow: var(--schaduw-kaart);
+  padding: var(--padding-sectie);
+  margin-bottom: 2rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.woon:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--schaduw-hover);
+}
+
+.woon__title {
+  font-size: var(--font-grootte-titel);
+  color: var(--kleur-primair);
+  margin-bottom: 1rem;
+}
+
+.woon__about {
+  font-size: var(--font-grootte-basis);
+  line-height: 1.7;
+  margin-bottom: 1rem;
+  color: var(--kleur-tekst);
+}
+
+.woon__subtitle {
+  font-size: var(--font-grootte-subtitel);
+  font-weight: 600;
+  color: var(--kleur-primair);
+  margin-top: 1.25rem;
+  margin-bottom: 0.75rem;
+}
+
+
+.woon__about--2,
+.woon__about--3,
+.woon__subtitle--2 {
+}

@@ -1,2 +1,9 @@
 {% extends "_layouts/base.twig" %}
 
+{% block content %}
+  <div class="content-container">
+    <h1 class="content-title">{{ home.title }}</h1>
+    <p class="content-detail">{{ home.about }}</p>
+  </div>
+  
+{% endblock %}

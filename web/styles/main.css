@@ -1,6 +1,15 @@
  @import url("variabels/varibels.css");
+ @import url("components/woon.css");
+ @import url("components/nav.css");
+ @import url("layouts/acordeon.css");
 
- .navbar {
-    background-color: red;
-    width: 100vw;
- }
+ body {
+  font-family: var(--font-body);
+  background-color: var(--kleur-secundair);
+  margin: 0;
+  color: var(--kleur-tekst);
+}
+
+.content-container, .accordion{
+   padding: var(--padding-sectie);
+}
