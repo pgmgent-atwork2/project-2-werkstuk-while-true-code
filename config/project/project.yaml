@@ -11,14 +11,6 @@ fs:
       path: assets
     type: craft\fs\Local
     url: /assets/
-fs:
-  assets:
-    hasUrls: true
-    name: assets
-    settings:
-      path: assets
-    type: craft\fs\Local
-    url: /assets/
 meta:
   __names__:
     0db241d4-2e06-4fff-a2af-dbf0ea38ed73: 'Public Schema' # Public Schema
