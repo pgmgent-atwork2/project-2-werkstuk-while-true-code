@@ -2,27 +2,43 @@
 {% set teamCards = craft.entries.section("team").all() %}
 
 {% block content %}
+  {% set grouped = {} %}
+  {% for item in teamCards %}
+    {% set job = item.jobTitle %}
+    {% if grouped[job] is not defined %}
+      {% set grouped = grouped | merge({ (job): [item] }) %}
+    {% else %}
+      {% set grouped = grouped | merge({ (job): grouped[job] | merge([item]) }) %}
+    {% endif %}
+  {% endfor %}
 
-{% for item in teamCards %}
-    <div class= "team-cards">
-        <h2 class="team-cards__title">{{item.title}}</h2>
-        <h3 class="team-cards__job-title"> {{item.jobTitle}}</h3>
-        {% set image = item.image.one() %}t
-        {% if image %}
-            <img src="{{ image.url }}" alt="{{ item.title }}">
-        {% endif %}
-        <p class="team-cards__about">
-            {{item.about}}
-        </p>
-        <div class="team-cards__contact">
-            <p class="team-cards__contact-item">
-            Telefoon nummer: {{item.telephoneNumber}}
-            E-mail: {{item.eMail}}
-            </p>
+  <div class="accordion">
+    {% for jobTitle, members in grouped %}
+      <div class="accordion__item">
+        <button class="accordion__header">
+          <span>{{ jobTitle }}</span>
+          <span class="accordion__icon"></span>
+        </button>
+        <div class="accordion__content">
+          {% for item in members %}
+            <div class="team-cards">
+              <h3 class="team-cards__name">{{ item.title }}</h3>
+              {% set image = item.image.one() %}
+              {% if image %}
+                <img src="{{ image.url }}" alt="{{ item.title }}">
+              {% endif %}
+              <p class="team-cards__about">{{ item.about }}</p>
+              <div class="team-cards__contact">
+                <p class="team-cards__contact-item">
+                  <strong>Telefoon nummer</strong>: {{ item.telephoneNumber }}<br>
+                  <strong>E-mail</strong>: {{ item.eMail }}
+                </p>
+              </div>
+            </div>
+          {% endfor %}
         </div>
-
-    </div>
-    
-{% endfor %}
-
+      </div>
+    {% endfor %}
+  </div>
 {% endblock %}
+

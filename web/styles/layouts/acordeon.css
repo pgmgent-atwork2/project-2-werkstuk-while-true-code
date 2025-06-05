@@ -51,6 +51,17 @@
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
 
+.accordion__content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.accordion__item.active .accordion__content {
+  max-height: 1000px; /* of gebruik scrollHeight in JS voor dynamiek */
+}
+
+
 @keyframes fadeIn {
   from {
     opacity: 0;
