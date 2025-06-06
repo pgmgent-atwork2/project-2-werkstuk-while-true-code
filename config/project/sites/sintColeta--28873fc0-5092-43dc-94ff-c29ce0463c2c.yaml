@@ -1,9 +1,0 @@
-baseUrl: null
-enabled: '1'
-handle: sintColeta
-hasUrls: true
-language: en-US
-name: 'Sint Coleta'
-primary: false
-siteGroup: ed19fb37-b34e-417d-8781-f93c9e4ea033 # Sint Coleta
-sortOrder: 3

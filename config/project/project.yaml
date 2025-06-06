@@ -1,4 +1,4 @@
-dateModified: 1749195354
+dateModified: 1749233672
 email:
   fromEmail: cthijsdewaegeneer@hotmail.com
   fromName: Mariahuis
@@ -29,11 +29,10 @@ meta:
     52c56731-5bd7-4925-bc00-8f6bc0cbf175: Images # Images
     0236b792-3d9d-4357-bfb5-27f0563387ba: Image # Image
     264a95fa-2749-4b66-9b94-d40c2bd1d56b: woonpage # woonpage
+    286af14c-e5cc-4afc-81b7-0e63e186e926: 'Sint Coleta' # Sint Coleta
     370c7e06-ba86-44f6-9ebf-818f3cb54765: 'Navigation Logo' # Navigation Logo
-    523bf516-1839-425e-a871-eb6c19b37109: 'Cultuur Colette' # Cultuur Colette
     649c743c-cbd3-4cf6-96d7-e0dc5e77b2bf: woon # woon
     949a148f-d172-45ff-bcfc-160d3292a8db: Mariahuis # Mariahuis
-    28873fc0-5092-43dc-94ff-c29ce0463c2c: 'Sint Coleta' # Sint Coleta
     a217ec0c-932b-4abe-8ca1-e7d91d1933bc: 'Organisation Selector' # Organisation Selector
     ad5423b7-11e2-4317-920c-4edbae9759dc: Urllink # Urllink
     bc050c68-33ca-41b4-ba7f-cd9d257a2a8d: About # About
@@ -45,8 +44,6 @@ meta:
     e53f3f97-c9d8-4279-9c27-9acd49e07a16: Information # Information
     e4774a18-f4d4-474d-b117-81b2c72a2f0a: 'Telephone Number' # Telephone Number
     ebe4e538-9047-4604-9246-2cfde30d1da8: 'Job Title' # Job Title
-    ed19fb37-b34e-417d-8781-f93c9e4ea033: 'Sint Coleta' # Sint Coleta
-    f2fcfcef-2e85-4ee2-94c7-b1ce5abab2ac: 'Cultuur Colette' # Cultuur Colette
     fc947245-56f3-40e9-bbd0-f927a5caa500: logo # logo
 plugins:
   ckeditor:
