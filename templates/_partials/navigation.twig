@@ -1,14 +1,21 @@
 {% set navItems = craft.entries.section("navigation").all() %}
 
 <header class="navbar">
-   <nav class="navbar-container">
-      <a class="logo" href="https://project-2-werkstuk-while-true-code.ddev.site"><img src="" alt="logo"></a>
-      <ul class="navbar-menu">
-         {% for item in navItems %}
-            <li class="navbar-item">
-               <a href="{{ item.linkUrl }}" class="navbar-link">{{ item.title }}</a>
-            </li>
-         {% endfor %}
-      </ul>
-   </nav>
+	<nav class="navbar-container">
+		<a class="logo" href="https://project-2-werkstuk-while-true-code.ddev.site">
+			<img src="" alt="logo">
+		</a>
+
+		<button class="navbar-toggle" id="navbar-toggle" aria-label="Toggle navigation">
+			<span class="navbar-toggle-icon"></span>
+		</button>
+
+		<ul class="navbar-menu" id="navbar-menu">
+			{% for item in navItems %}
+				<li class="navbar-item">
+					<a href="{{ item.linkUrl }}" class="navbar-link">{{ item.title }}</a>
+				</li>
+			{% endfor %}
+		</ul>
+	</nav>
 </header>

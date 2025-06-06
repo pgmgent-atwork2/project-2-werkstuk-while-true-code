@@ -1,0 +1,54 @@
+.team-cards {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.team-cards:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.team-cards img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+}
+
+.team-cards__name,
+.team-cards__title {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.team-cards__about {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+.team-cards__contact {
+    font-size: 0.9rem;
+    color: #444;
+    border-top: 1px solid #eee;
+    padding-top: 0.5rem;
+}
+
+.team-cards__contact-item {
+    margin-bottom: 0.3rem;
+}
+
+/* Responsive layout */
+@media (min-width: 600px) {
+    .accordion__content {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 1rem;
+    }
+}

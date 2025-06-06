@@ -56,17 +56,72 @@
   transform-origin: left;
 }
 
+/* Hamburger button */
+.navbar-toggle {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  z-index: 1001; /* Zorg dat hij boven het menu zit */
+}
+
+.navbar-toggle-icon {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.navbar-toggle-icon::before,
+.navbar-toggle-icon::after {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  transition: all 0.3s ease;
+}
+
+.navbar-toggle-icon::before {
+  transform: translateY(-8px);
+}
+
+.navbar-toggle-icon::after {
+  transform: translateY(8px);
+}
+
+/* Mobile styles */
 @media (max-width: 768px) {
   .navbar-container {
     flex-direction: column;
     align-items: flex-start;
   }
 
+  /* Hamburger zichtbaar */
+  .navbar-toggle {
+    display: flex;
+    margin-left: auto;
+  }
+
   .navbar-menu {
+    display: none;
     flex-direction: column;
     width: 100%;
     margin-top: 1rem;
     gap: 1rem;
+    background-color: var(--kleur-primair);
+    padding: 1rem 0;
+  }
+
+  .navbar-menu.open {
+    display: flex;
   }
 
   .navbar-item {
@@ -76,5 +131,18 @@
   .navbar-link {
     display: block;
     width: 100%;
+    padding-left: 1rem;
   }
+}
+
+.navbar-toggle.open .navbar-toggle-icon {
+    background-color: transparent;
+}
+
+.navbar-toggle.open .navbar-toggle-icon::before {
+    transform: rotate(45deg);
+}
+
+.navbar-toggle.open .navbar-toggle-icon::after {
+    transform: rotate(-45deg);
 }
