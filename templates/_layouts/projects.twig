@@ -1,20 +1,24 @@
 {% extends "_layouts/base.twig" %}
 
-{% set projectsItems = craft.entries()
-    .section("projects")
-    .all() %}
+{% set projectsItems = craft.entries().section("projects").all() %}
 
 {% block content %}
-  <div class="">
+  <div class="accordion">
     {% for item in projectsItems %}
-      <div class="">
-        <div class="">
-        <h1> {{ item.title }}</h1>
-          <p>{{ item.about }}</p>
-          <h2>{{ item.subtiltel }}</h2>
-          <p>{{ item.about2 }}</p>
+      <div class="accordion__item">
+        <button class="accordion__header">
+          <span>{{ item.title }}</span>
+          <span class="accordion__icon"></span>
+        </button>
+        <div class="accordion__content">
+          <div class="accordion__content-inner">
+            <p>{{ item.about }}</p>
+            <h2>{{ item.subtiltel }}</h2>
+            <p>{{ item.about2 }}</p>
+          </div>
         </div>
       </div>
     {% endfor %}
   </div>
 {% endblock %}
+
