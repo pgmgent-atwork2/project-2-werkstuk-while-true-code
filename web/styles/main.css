@@ -19,3 +19,9 @@
    padding: var(--padding-sectie) var(--border-margin);
    min-height: 100%;
 }
+
+@media (max-width: 900px) {
+    .content-container {
+        margin: 0;
+    }
+}

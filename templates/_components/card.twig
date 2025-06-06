@@ -23,21 +23,36 @@
 				<div class="accordion__content">
 					{% for item in members %}
 						<div class="team-cards">
-							<h3 class="team-cards__name">{{ item.title }}</h3>
-							{% set image = item.image.one() %}
-							{% if image %}
-								<img src="{{ image.url }}" alt="{{ item.title }}">
-							{% endif %}
-							<p class="team-cards__about">{{ item.about }}</p>
-							<div class="team-cards__contact">
-								<p class="team-cards__contact-item">
-									<strong>Telefoon nummer</strong>:
-									{{ item.telephoneNumber }}<br>
-									<strong>E-mail</strong>:
-									{{ item.eMail }}
-								</p>
+							<div class="team-cards__left">
+								<div class="team-cards__name">{{ item.title }}</div>
+								{% set image = item.image.one() %}
+								{% if image %}
+									<img src="{{ image.url }}" alt="{{ item.title }}">
+								{% endif %}
 							</div>
+							{% verbatim %}{% endverbatim %}
+							<div class="team-cards__right">
+								<p class="team-cards__about">
+									{{ item.about }}
+								</p>
+
+								<div class="team-cards__contact">
+									<h4 class="team-cards__contact-title">Contact</h4>
+									<p class="team-cards__contact-item">
+										📞
+										<strong>Telefoon</strong>:
+										{{ item.telephoneNumber }}
+									</p>
+									<p class="team-cards__contact-item">
+										📧
+										<strong>E-mail</strong>:
+										{{ item.eMail }}
+									</p>
+								</div>
+							</div>
+
 						</div>
+
 					{% endfor %}
 				</div>
 			</div>
