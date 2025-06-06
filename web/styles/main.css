@@ -4,6 +4,7 @@
  @import url("components/footer.css");
  @import url("components/team.css");
  @import url("layouts/acordeon.css");
+  @import url("layouts/slideShow.css");
 
  body {
   font-family: var(--font-body);
