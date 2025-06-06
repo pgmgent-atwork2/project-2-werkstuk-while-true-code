@@ -22,19 +22,19 @@ propagationMethod: all
 siteSettings:
   28873fc0-5092-43dc-94ff-c29ce0463c2c: # Sint Coleta
     enabledByDefault: true
-    hasUrls: true
-    template: projects/_entry.twig
-    uriFormat: 'projects/{slug}'
+    hasUrls: false
+    template: null
+    uriFormat: null
   cbe9e6f0-0c8d-485f-b0d9-499af8215148: # Mariahuis
     enabledByDefault: true
     hasUrls: true
-    template: projects/_entry.twig
+    template: _layouts/projects.twig
     uriFormat: 'projects/{slug}'
   f2fcfcef-2e85-4ee2-94c7-b1ce5abab2ac: # Cultuur Colette
     enabledByDefault: true
-    hasUrls: true
-    template: projects/_entry.twig
-    uriFormat: 'projects/{slug}'
+    hasUrls: false
+    template: null
+    uriFormat: null
 structure:
   maxLevels: null
   uid: cc1194d7-e902-46d8-ada0-a612f589c082
