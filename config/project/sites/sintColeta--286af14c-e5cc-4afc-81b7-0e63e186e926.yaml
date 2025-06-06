@@ -1,0 +1,9 @@
+baseUrl: $SINT_COLETA_URL
+enabled: '1'
+handle: sintColeta
+hasUrls: true
+language: en-US
+name: 'Sint Coleta'
+primary: false
+siteGroup: 949a148f-d172-45ff-bcfc-160d3292a8db # Mariahuis
+sortOrder: 2
