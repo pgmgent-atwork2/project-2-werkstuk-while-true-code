@@ -4,12 +4,15 @@
   --kleur-achtergrond: #ffffff;
   --kleur-tekst: #333333;
   --kleur-link-hover: #001422;
+  --kleur-body-back: #8ed1fc;
 
   --font-body: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   --font-grootte-basis: 1rem;
   --font-grootte-titel: 1.8rem;
   --font-grootte-subtitel: 1.2rem;
 
+  --border-padding: 10rem;
+  --border-margin: 5rem;
   --padding-sectie: 2rem;
   --border-radius: 12px;
   --schaduw-kaart: 0 4px 12px rgba(0, 0, 0, 0.06);

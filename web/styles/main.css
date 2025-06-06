@@ -1,15 +1,20 @@
  @import url("variabels/varibels.css");
  @import url("components/woon.css");
  @import url("components/nav.css");
+ @import url("components/footer.css");
  @import url("layouts/acordeon.css");
 
  body {
   font-family: var(--font-body);
-  background-color: var(--kleur-secundair);
+  background-color: var(--kleur-body-back);
   margin: 0;
+  padding: 0;
   color: var(--kleur-tekst);
 }
 
-.content-container, .accordion{
-   padding: var(--padding-sectie);
+.content-container{
+   background-color: var(--kleur-secundair);
+   margin: 0rem var(--border-padding);
+   padding: var(--padding-sectie) var(--border-margin);
+   min-height: 100%;
 }
