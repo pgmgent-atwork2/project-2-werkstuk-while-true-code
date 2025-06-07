@@ -1,0 +1,73 @@
+.diensten-cards {
+  padding: 1rem 0;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #e0e0e0;
+  transition: background-color 0.3s ease;
+}
+
+.diensten-cards__title {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--kleur-primair);
+    margin-bottom: 0.5rem;
+}
+
+.diensten-cards img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin-bottom: 1rem;
+}
+
+.diensten-cards__about {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.7;
+    margin-bottom: 1rem;
+}
+
+.diensten-cards__contact {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 1rem;
+    font-size: 0.95rem;
+    color: #333;
+}
+
+.diensten-cards__contact-item {
+    margin-bottom: 0.5rem;
+    line-height: 1.5;
+}
+
+.diensten-cards__contact-item:last-child {
+    margin-bottom: 0;
+}
+
+.diensten-cards__right{
+    width: 65%;
+    margin: 2rem;
+    margin-left: 3rem;
+    margin-top: 3rem;
+}
+.diensten-cards__left{
+    width: 25%;
+    margin: 2rem;
+    margin-left: 3rem;
+    margin-top: 3rem;
+}
+
+@media (min-width: 600px) {
+  .diensten-cards {
+    padding: 0.5rem 1rem;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: transparent;
+    display: flex;
+  }
+
+  .diensten-cards:hover {
+    background-color: var(--kleur-body-back);
+  }
+}

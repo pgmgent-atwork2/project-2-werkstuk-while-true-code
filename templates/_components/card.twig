@@ -69,29 +69,34 @@
 			</button>
 			<div class="accordion__content">
 				{% for item in services %}
-					<div class="team-cards">
-						<h2 class="team-cards__title">{{ item.title }}</h2>
-						{% set image = item.image.one() %}
-						{% if image %}
-							<img src="{{ image.url }}" alt="{{ item.title }}">
-						{% endif %}
-						<p class="team-cards__about">{{ item.about }}</p>
-						{% if item.telephoneNumber or item.eMail %}
-							<div class="team-cards__contact">
-								{% if item.telephoneNumber %}
-									<p class="team-cards__contact-item">
-										Telefoon nummer:
-										{{ item.telephoneNumber }}
-									</p>
-								{% endif %}
-								{% if item.eMail %}
-									<p class="team-cards__contact-item">
-										E-mail:
-										{{ item.eMail }}
-									</p>
-								{% endif %}
-							</div>
-						{% endif %}
+
+					<div class="diensten-cards">
+						<div class="diensten-cards__left">
+							<h2 class="diensten-cards__title">{{ item.title }}</h2>
+							{% set image = item.image.one() %}
+							{% if image %}
+								<img src="{{ image.url }}" alt="{{ item.title }}">
+							{% endif %}
+						</div>
+						<div class="diensten-cards__right">
+							<p class="diensten-cards__about">{{ item.about }}</p>
+							{% if item.telephoneNumber or item.eMail %}
+								<div class="diensten-cards__contact">
+									{% if item.telephoneNumber %}
+										<p class="diensten-cards__contact-item">
+											Telefoon nummer:
+											{{ item.telephoneNumber }}
+										</p>
+									{% endif %}
+									{% if item.eMail %}
+										<p class="diensten-cards__contact-item">
+											E-mail:
+											{{ item.eMail }}
+										</p>
+									{% endif %}
+								</div>
+							{% endif %}
+						</div>
 					</div>
 				{% endfor %}
 			</div>

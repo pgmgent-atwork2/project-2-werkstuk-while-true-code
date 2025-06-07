@@ -3,6 +3,7 @@
  @import url("components/nav.css");
  @import url("components/footer.css");
  @import url("components/team.css");
+ @import url("components/diensten.css");
  @import url("layouts/acordeon.css");
 
  body {
@@ -11,6 +12,7 @@
   margin: 0;
   padding: 0;
   color: var(--kleur-tekst);
+  font-size: large;
 }
 
 .content-container{
