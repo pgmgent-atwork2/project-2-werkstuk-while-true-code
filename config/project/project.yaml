@@ -1,4 +1,4 @@
-dateModified: 1749316125
+dateModified: 1749195354
 email:
   fromEmail: cthijsdewaegeneer@hotmail.com
   fromName: Mariahuis
@@ -17,6 +17,7 @@ meta:
     1d5d1177-a90c-47eb-be17-96aa47c1a279: Navigation # Navigation
     02d0d6a6-528f-43d9-9f98-32bc31ce7eff: 'Information Footer' # Information Footer
     2e553777-6e9b-4391-acff-be623de1b9c1: Images # Images
+    2f9a9735-87e9-4eec-96e1-d24d98a3dd96: Carrousel # Carrousel
     4a0cf904-6f9d-4504-a707-2ee5b5a08054: home # home
     4a263512-20cf-4cbe-9dda-a9705a47e161: 'Navigation Link URL' # Navigation Link URL
     4b9a158b-4240-4eae-bd16-bd85c81c5374: logo # logo
@@ -27,13 +28,17 @@ meta:
     41f8402d-f330-488f-a911-a74233e603d2: Footer # Footer
     50da2409-03a2-4404-923d-b6e27f251175: Team # Team
     52c56731-5bd7-4925-bc00-8f6bc0cbf175: Images # Images
+    167cd03d-1694-46eb-8f6b-cd1e73c52971: Gallery # Gallery
     0236b792-3d9d-4357-bfb5-27f0563387ba: Image # Image
+    243ef0d3-233e-445e-8a61-515973553c50: projects # projects
     264a95fa-2749-4b66-9b94-d40c2bd1d56b: woonpage # woonpage
     286af14c-e5cc-4afc-81b7-0e63e186e926: 'Sint Coleta' # Sint Coleta
     370c7e06-ba86-44f6-9ebf-818f3cb54765: 'Navigation Logo' # Navigation Logo
     649c743c-cbd3-4cf6-96d7-e0dc5e77b2bf: woon # woon
     949a148f-d172-45ff-bcfc-160d3292a8db: Mariahuis # Mariahuis
-    a217ec0c-932b-4abe-8ca1-e7d91d1933bc: 'Organisation Selector' # Organisation Selector
+    6582dbe8-ff68-4fe7-9e50-25eca92bbef1: projects # projects
+    28873fc0-5092-43dc-94ff-c29ce0463c2c: 'Sint Coleta' # Sint Coleta
+    a04d3640-4891-4f1e-be98-0e3772174ac5: number # number
     ad5423b7-11e2-4317-920c-4edbae9759dc: Urllink # Urllink
     bc050c68-33ca-41b4-ba7f-cd9d257a2a8d: About # About
     c014c31c-08dc-47f7-b5d4-3b3e539550d9: 'Service Card' # Service Card

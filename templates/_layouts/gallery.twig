@@ -1,0 +1,22 @@
+{% extends "_layouts/base.twig" %}
+{% set gallery = craft.entries.section("gallery").all() %}
+
+{% block content %}
+	<div class="gallerij-slideshow">
+		<div class="gallerij-slide fade gallerij-hover">
+			<img src="" class="gallerij"/>
+		</div>
+		<div class="gallerij-slide fade gallerij-hover">
+			<img src="" class="gallerij"/>
+		</div>
+		<div class="gallerij-slide fade gallerij-hover">
+			<img src="" class="gallerij"/>
+		</div>
+		<div class="gallerij-slide fade gallerij-hover">
+			<img src="" class="gallerij"/>
+		</div>
+
+		<a class="prev">❮</a>
+		<a class="next">❯</a>
+	</div>
+{% endblock %}
