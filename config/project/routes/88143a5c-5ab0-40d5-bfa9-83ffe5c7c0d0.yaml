@@ -1,6 +1,0 @@
-siteUid: null
-sortOrder: 3
-template: _layouts/projects.twig
-uriParts:
-  - projects
-uriPattern: projects

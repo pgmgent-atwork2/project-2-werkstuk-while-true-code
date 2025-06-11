@@ -1,6 +1,0 @@
-siteUid: null
-sortOrder: 4
-template: _layouts/gallery.twig
-uriParts:
-  - gallery
-uriPattern: gallery
