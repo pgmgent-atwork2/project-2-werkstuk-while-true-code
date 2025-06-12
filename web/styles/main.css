@@ -7,13 +7,17 @@
  @import url("layouts/acordeon.css");
   @import url("layouts/slideShow.css");
 
- body {
+ body{
   font-family: var(--font-body);
   background-color: var(--kleur-body-back);
   margin: 0;
   padding: 0;
   color: var(--kleur-tekst);
   font-size: large;
+  background-image: url('../assets/background.webp');
+  background-repeat: repeat;
+  background-size: 50px 50px;
+  background-position: top left;
 }
 
 .content-container{
@@ -21,6 +25,7 @@
    margin: 0rem var(--border-padding);
    padding: var(--padding-sectie) var(--border-margin);
    min-height: 100%;
+   border-radius: 1rem;
 }
 
 @media (max-width: 900px) {

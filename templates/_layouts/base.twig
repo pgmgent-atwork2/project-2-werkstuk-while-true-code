@@ -6,12 +6,11 @@
 		<title>{{home.title}}</title>
 		<link rel="stylesheet" href="/styles/main.css">
 	</head>
-	<body class={{home.class}}>
+	<body class="{{ home.class }}">
 		{% include "_partials/navigation.twig" %}
 		<div class="content-container"> {% block content %}{% endblock %}
 			</div>
 			{% include "_partials/footer.twig" %}
-
 			<script type="module" src="{{ alias('@web') }}/scripts/main.js"></script>
 		</body>
 	</html>

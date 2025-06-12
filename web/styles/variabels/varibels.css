@@ -1,6 +1,6 @@
 :root {
   --kleur-primair: #005a9c;
-  --kleur-secundair: #f4f4f4;
+  --kleur-secundair: rgb(244, 244, 244, 0.8);
   --kleur-achtergrond: #ffffff;
   --kleur-tekst: #333333;
   --kleur-link-hover: #001422;
@@ -22,4 +22,9 @@
 body.sintColeta {
   --kleur-primair: #551a0c;
   --kleur-body-back: #cab27f;
+}
+
+body.cultuurColette {
+  --kleur-primair: #006400;
+  --kleur-body-back: #8FBC8F;
 }
