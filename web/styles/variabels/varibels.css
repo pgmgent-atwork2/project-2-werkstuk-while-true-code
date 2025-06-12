@@ -18,3 +18,8 @@
   --schaduw-kaart: 0 4px 12px rgba(0, 0, 0, 0.06);
   --schaduw-hover: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
+
+body.sintColeta {
+  --kleur-primair: #551a0c;
+  --kleur-body-back: #cab27f;
+}
