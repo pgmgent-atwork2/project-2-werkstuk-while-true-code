@@ -1,0 +1,9 @@
+baseUrl: $CULTUUR_COLETTE_URL
+enabled: '1'
+handle: cultuurColette
+hasUrls: true
+language: en-US
+name: 'Cultuur Colette'
+primary: false
+siteGroup: 949a148f-d172-45ff-bcfc-160d3292a8db # Mariahuis
+sortOrder: 3
