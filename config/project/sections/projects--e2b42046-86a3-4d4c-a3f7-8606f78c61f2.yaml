@@ -1,0 +1,36 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: 7d1938dd-15e0-42ea-9992-f71c42d2e7f5 # Project
+handle: projects
+maxAuthors: 1
+name: Projects
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  286af14c-e5cc-4afc-81b7-0e63e186e926: # Sint Coleta
+    enabledByDefault: true
+    hasUrls: true
+    template: _layouts/projects.twig
+    uriFormat: projects
+  cbe9e6f0-0c8d-485f-b0d9-499af8215148: # Mariahuis
+    enabledByDefault: true
+    hasUrls: true
+    template: _layouts/projects.twig
+    uriFormat: projects
+structure:
+  maxLevels: null
+  uid: 7f4685e6-cef1-44c3-bbcd-63db6e72f924
+type: structure
