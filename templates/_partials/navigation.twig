@@ -1,9 +1,11 @@
 {% set navItems = craft.entries.section("navigation").all() %}
+{% set home = craft.entries.section('home').one() %}
 
 <header class="navbar">
 	<nav class="navbar-container">
-		<a class="logo" href="https://project-2-werkstuk-while-true-code.ddev.site">
-			<img src="" alt="logo">
+		<a class="logo" href="{{ home.urlhome }}">
+		{% set logo = home.logo.one() %}
+			<img src="{{ logo.url }}" alt="logo">
 		</a>
 
 		<button class="navbar-toggle" id="navbar-toggle" aria-label="Toggle navigation">

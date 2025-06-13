@@ -30,4 +30,9 @@ siteSettings:
     hasUrls: true
     template: home/_entry.twig
     uriFormat: home
+  cff0b4bc-9a95-472d-8a35-34908974fbab: # Cultuur Colette
+    enabledByDefault: true
+    hasUrls: true
+    template: home/_entry.twig
+    uriFormat: home
 type: single

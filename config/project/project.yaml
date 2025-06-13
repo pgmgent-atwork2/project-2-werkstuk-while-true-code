@@ -1,4 +1,4 @@
-dateModified: 1749728045
+dateModified: 1749801582
 email:
   fromEmail: cthijsdewaegeneer@hotmail.com
   fromName: Mariahuis
@@ -16,6 +16,7 @@ meta:
     0db241d4-2e06-4fff-a2af-dbf0ea38ed73: 'Public Schema' # Public Schema
     1d5d1177-a90c-47eb-be17-96aa47c1a279: Navigation # Navigation
     02d0d6a6-528f-43d9-9f98-32bc31ce7eff: 'Information Footer' # Information Footer
+    2db437de-5149-40d3-9abb-2258651c93ec: logo # logo
     2e553777-6e9b-4391-acff-be623de1b9c1: Images # Images
     4a0cf904-6f9d-4504-a707-2ee5b5a08054: home # home
     4a263512-20cf-4cbe-9dda-a9705a47e161: 'Navigation Link URL' # Navigation Link URL
@@ -36,6 +37,7 @@ meta:
     949a148f-d172-45ff-bcfc-160d3292a8db: Mariahuis # Mariahuis
     a217ec0c-932b-4abe-8ca1-e7d91d1933bc: 'Organisation Selector' # Organisation Selector
     ad5423b7-11e2-4317-920c-4edbae9759dc: Urllink # Urllink
+    b8db649c-bb5e-4502-b98a-849dca1d55f1: URLhome # URLhome
     bc050c68-33ca-41b4-ba7f-cd9d257a2a8d: About # About
     c014c31c-08dc-47f7-b5d4-3b3e539550d9: 'Service Card' # Service Card
     cbe9e6f0-0c8d-485f-b0d9-499af8215148: Mariahuis # Mariahuis
