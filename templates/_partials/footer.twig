@@ -1,16 +1,23 @@
 {% set navigation = craft.entries.section('footer').all() %}
 
 <footer class="footer">
-    <div class="footer__credits">
-        <ul class="footer__credits-list">
-            {% set navigation = craft.entries.section('footer').all() %}
+  <div class="footer__credits">
+    <ul class="footer__credits-list">
+      {% for item in navigation %}
+        <li class="footer__credits-item">
+          <a href="{{ item.navigationLinkUrl }}" rel="noopener">
+            {% set image = item.image.one() %}
+            {% if image %}
+              <img src="{{ image.url }}" alt="{{ image.title }}">
+            {% endif %}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
 
-            {% for item in navigation %}
-            <li class="footer__credits-list">
-            
-            </li>
-            {% endfor %}
-        
-        </ul>
-    </div>
+  <div class="footer__madeBy">
+    <p>Gemaakt door: <strong>While(true){code}</strong></p>
+    <p>Arteveldehogeschool</p>
+  </div>
 </footer>

@@ -2,7 +2,7 @@ defaultPlacement: end
 enableVersioning: true
 entryTypes:
   -
-    uid: 02d0d6a6-528f-43d9-9f98-32bc31ce7eff # Information Footer
+    uid: 02d0d6a6-528f-43d9-9f98-32bc31ce7eff # Footer
 handle: footer
 maxAuthors: 1
 name: Footer

@@ -1,4 +1,4 @@
-dateModified: 1749801582
+dateModified: 1749802841
 email:
   fromEmail: cthijsdewaegeneer@hotmail.com
   fromName: Mariahuis
@@ -15,7 +15,7 @@ meta:
   __names__:
     0db241d4-2e06-4fff-a2af-dbf0ea38ed73: 'Public Schema' # Public Schema
     1d5d1177-a90c-47eb-be17-96aa47c1a279: Navigation # Navigation
-    02d0d6a6-528f-43d9-9f98-32bc31ce7eff: 'Information Footer' # Information Footer
+    02d0d6a6-528f-43d9-9f98-32bc31ce7eff: Footer # Footer
     2db437de-5149-40d3-9abb-2258651c93ec: logo # logo
     2e553777-6e9b-4391-acff-be623de1b9c1: Images # Images
     4a0cf904-6f9d-4504-a707-2ee5b5a08054: home # home
