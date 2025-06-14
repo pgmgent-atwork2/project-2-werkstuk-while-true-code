@@ -30,6 +30,11 @@ siteSettings:
     hasUrls: true
     template: _layouts/projects.twig
     uriFormat: projects
+  cff0b4bc-9a95-472d-8a35-34908974fbab: # Cultuur Colette
+    enabledByDefault: true
+    hasUrls: true
+    template: _layouts/projects.twig
+    uriFormat: projects
 structure:
   maxLevels: null
   uid: 7f4685e6-cef1-44c3-bbcd-63db6e72f924

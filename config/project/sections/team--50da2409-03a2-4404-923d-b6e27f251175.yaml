@@ -30,6 +30,11 @@ siteSettings:
     hasUrls: true
     template: _components/card.twig
     uriFormat: 'team/{slug}'
+  cff0b4bc-9a95-472d-8a35-34908974fbab: # Cultuur Colette
+    enabledByDefault: true
+    hasUrls: true
+    template: _components/card.twig
+    uriFormat: 'team/{slug}'
 structure:
   maxLevels: null
   uid: 7d877a0e-e5c6-4091-b64b-13d5528f24fa
