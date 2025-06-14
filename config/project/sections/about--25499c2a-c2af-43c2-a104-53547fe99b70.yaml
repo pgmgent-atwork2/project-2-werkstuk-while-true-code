@@ -2,10 +2,10 @@ defaultPlacement: end
 enableVersioning: true
 entryTypes:
   -
-    uid: 879872e4-2830-4690-9c02-c33db3aefa9e # General Info
-handle: algemeneInfo
+    uid: 879872e4-2830-4690-9c02-c33db3aefa9e # about
+handle: about
 maxAuthors: 1
-name: 'Algemene info'
+name: about
 previewTargets:
   -
     __assoc__:

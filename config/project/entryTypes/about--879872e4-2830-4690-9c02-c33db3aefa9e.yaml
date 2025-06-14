@@ -106,10 +106,10 @@ fieldLayouts:
         name: Content
         uid: f1446f76-7f10-45ac-8340-23d3c7a13947
         userCondition: null
-handle: generalInfo
+handle: about
 hasTitleField: true
 icon: circle-info
-name: 'General Info'
+name: about
 showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null

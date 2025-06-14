@@ -1,4 +1,4 @@
-dateModified: 1749889829
+dateModified: 1749901442
 email:
   fromEmail: cthijsdewaegeneer@hotmail.com
   fromName: Mariahuis
@@ -38,8 +38,8 @@ meta:
     391fd68c-ad7d-42d8-b9f4-daefbef5a206: Informations # Informations
     649c743c-cbd3-4cf6-96d7-e0dc5e77b2bf: woon # woon
     949a148f-d172-45ff-bcfc-160d3292a8db: Mariahuis # Mariahuis
-    25499c2a-c2af-43c2-a104-53547fe99b70: 'Algemene info' # Algemene info
-    879872e4-2830-4690-9c02-c33db3aefa9e: 'General Info' # General Info
+    25499c2a-c2af-43c2-a104-53547fe99b70: about # about
+    879872e4-2830-4690-9c02-c33db3aefa9e: about # about
     a217ec0c-932b-4abe-8ca1-e7d91d1933bc: 'Organisation Selector' # Organisation Selector
     ad5423b7-11e2-4317-920c-4edbae9759dc: Urllink # Urllink
     b8db649c-bb5e-4502-b98a-849dca1d55f1: URLhome # URLhome
