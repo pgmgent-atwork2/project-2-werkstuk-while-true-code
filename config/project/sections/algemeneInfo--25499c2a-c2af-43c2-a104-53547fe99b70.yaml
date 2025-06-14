@@ -1,0 +1,36 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: 879872e4-2830-4690-9c02-c33db3aefa9e # General Info
+handle: algemeneInfo
+maxAuthors: 1
+name: 'Algemene info'
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  286af14c-e5cc-4afc-81b7-0e63e186e926: # Sint Coleta
+    enabledByDefault: true
+    hasUrls: true
+    template: _layouts/about.twig
+    uriFormat: about
+  cbe9e6f0-0c8d-485f-b0d9-499af8215148: # Mariahuis
+    enabledByDefault: true
+    hasUrls: true
+    template: _layouts/about.twig
+    uriFormat: about
+structure:
+  maxLevels: null
+  uid: 565e3cf2-30ae-420c-8812-3c8c6f7c348f
+type: structure

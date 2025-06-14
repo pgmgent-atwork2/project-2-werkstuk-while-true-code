@@ -1,0 +1,41 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: f62ce80d-ed9f-4532-9bf4-06acbb4ba960 # Gallerij
+handle: gallerij
+maxAuthors: 1
+name: Gallerij
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  286af14c-e5cc-4afc-81b7-0e63e186e926: # Sint Coleta
+    enabledByDefault: true
+    hasUrls: true
+    template: _layouts/gallery.twig
+    uriFormat: gallery
+  cbe9e6f0-0c8d-485f-b0d9-499af8215148: # Mariahuis
+    enabledByDefault: true
+    hasUrls: true
+    template: _layouts/gallery.twig
+    uriFormat: gallery
+  cff0b4bc-9a95-472d-8a35-34908974fbab: # Cultuur Colette
+    enabledByDefault: true
+    hasUrls: true
+    template: _layouts/gallery.twig
+    uriFormat: gallery
+structure:
+  maxLevels: null
+  uid: 7b7e8eaa-9d33-4b19-a5bf-bde02435d2b2
+type: structure

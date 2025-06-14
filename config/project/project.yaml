@@ -1,4 +1,4 @@
-dateModified: 1749821171
+dateModified: 1749889829
 email:
   fromEmail: cthijsdewaegeneer@hotmail.com
   fromName: Mariahuis
@@ -30,12 +30,16 @@ meta:
     50da2409-03a2-4404-923d-b6e27f251175: Team # Team
     52c56731-5bd7-4925-bc00-8f6bc0cbf175: Images # Images
     57a34491-7665-41a5-a922-ed817af24c0a: Class # Class
+    99da8110-7916-4709-b043-c8e85eb1280d: Gallerij # Gallerij
     0236b792-3d9d-4357-bfb5-27f0563387ba: Image # Image
     264a95fa-2749-4b66-9b94-d40c2bd1d56b: woonpage # woonpage
     286af14c-e5cc-4afc-81b7-0e63e186e926: 'Sint Coleta' # Sint Coleta
     370c7e06-ba86-44f6-9ebf-818f3cb54765: 'Navigation Logo' # Navigation Logo
+    391fd68c-ad7d-42d8-b9f4-daefbef5a206: Informations # Informations
     649c743c-cbd3-4cf6-96d7-e0dc5e77b2bf: woon # woon
     949a148f-d172-45ff-bcfc-160d3292a8db: Mariahuis # Mariahuis
+    25499c2a-c2af-43c2-a104-53547fe99b70: 'Algemene info' # Algemene info
+    879872e4-2830-4690-9c02-c33db3aefa9e: 'General Info' # General Info
     a217ec0c-932b-4abe-8ca1-e7d91d1933bc: 'Organisation Selector' # Organisation Selector
     ad5423b7-11e2-4317-920c-4edbae9759dc: Urllink # Urllink
     b8db649c-bb5e-4502-b98a-849dca1d55f1: URLhome # URLhome
@@ -50,6 +54,7 @@ meta:
     e53f3f97-c9d8-4279-9c27-9acd49e07a16: Information # Information
     e4774a18-f4d4-474d-b117-81b2c72a2f0a: 'Telephone Number' # Telephone Number
     ebe4e538-9047-4604-9246-2cfde30d1da8: 'Job Title' # Job Title
+    f62ce80d-ed9f-4532-9bf4-06acbb4ba960: Gallerij # Gallerij
     fc947245-56f3-40e9-bbd0-f927a5caa500: logo # logo
 plugins:
   ckeditor:

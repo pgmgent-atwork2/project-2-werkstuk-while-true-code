@@ -1,21 +1,45 @@
 {% extends "_layouts/base.twig" %}
-{% set aboutItems = craft.entries.section("about").all() %}
+{% set aboutItems = craft.entries.section("algemeneInfo").all() %}
 
 {% block content %}
-  <div class="accordion">
-    {% for item in aboutItems %}
-      <div class="accordion__item">
-        <button class="accordion__header"><span>{{ item.title }}</span><span class="accordion__icon"></span></button>
-        <div class="accordion__content">
-          <p class="woon__about">{{ item.about }}</p>
-          <p class="woon__subtitle">{{ item.subtiltel }}</p>
-          <p class="woon__about woon__about--2">{{ item.about2 }}</p>
-          <p class="woon__subtitle woon__subtitle--2">{{ item.subtiltel2 }}</p>
-          <p class="woon__about woon__about--3">{{ item.about3 }}</p>
-          <p class="woon__subtitle woon__subtitle--2">{{ item.subtiltel3 }}</p>
-          <p class="woon__about woon__about--3">{{ item.about4 }}</p>
-        </div>
-      </div>
-    {% endfor %}
-  </div>
+	<div class="accordion">
+		{% for item in aboutItems %}
+			<div class="accordion__item">
+				<button class="accordion__header">
+					<span>{{ item.title }}</span>
+					<span class="accordion__icon"></span>
+				</button>
+				<div class="accordion__content">
+					<div class="team-cards">
+						<div class="team-cards__left">
+							{% set image = item.image.one() %}
+							{% if image %}
+								<img src="{{ image.url }}" alt="{{ item.title }}">
+							{% endif %}
+						</div>
+						<div class="team-cards__right">
+							<p class="team-cards__team">
+								{{ item.informations }}
+							</p>
+							{% if item.telephoneNumber or item.eMail %}
+								<div class="team-cards__contact">
+									<h4 class="team-cards__contact-title">Contact</h4>
+									{% if item.telephoneNumber %}
+										<p class="team-cards__contact-item">
+											📞 <strong>Telefoon</strong>: {{ item.telephoneNumber }}
+										</p>
+									{% endif %}
+									{% if item.eMail %}
+										<p class="team-cards__contact-item">
+											📧 <strong>E-mail</strong>: {{ item.eMail }}
+										</p>
+									{% endif %}
+								</div>
+							{% endif %}
+						</div>
+					</div>
+				</div>
+			</div>
+		{% endfor %}
+	</div>
 {% endblock %}
